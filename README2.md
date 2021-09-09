@@ -30,3 +30,16 @@
  |유닛|모든 function을 따로 테스트.<br>서비스에서 분리된 유닛을 테스트하는 것<br> __* 기능단위테스트__|test:cov <br> test:watch|
  |end-to-end(e2e)|모든 시스템을 테스팅<br>__* 사용자스토리관점테스트__| test:e2e |
 
+
+****************
+## git
+* 주소  
+ https://github.com/JINHEE-YU/hi-nest/tree/0909
+* 브랜치 생성
+ > git branch -M 브랜치명
+* checkout
+ > git checkout 브랜치명
+* commit
+ > git commit -m "커밋메시지"
+* push
+ > git push -u origin 브랜치명
