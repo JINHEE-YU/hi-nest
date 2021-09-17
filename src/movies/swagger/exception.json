@@ -1,0 +1,26 @@
+{
+  "ErrorMsg":{
+    "HttpError400Exam": {
+      "description":"요청 파라미터에 이상이 있습니다.",
+      "schema":{
+        "example":{
+          "statusCode": 400,
+          "message": [
+            "오류 상세 메시지"
+          ],
+          "error": "Bad Request"
+        }
+      }
+    },
+    "HttpError404Exam": {
+      "description": "HTTP 404 에러",
+      "schema":{
+        "example":{
+          "statusCode": 404,
+          "message": "Movie with ID {id} not found.",
+          "error": "Not Found"
+        }
+      }
+    }
+  }
+}
