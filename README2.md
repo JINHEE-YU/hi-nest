@@ -16,6 +16,8 @@
   > npm i @nestjs/swagger
 * 프로젝트 실행
  > npm run start:dev
+ * 모듈/컨트롤러/서비스 생성
+  > npm g mo/co/s
 
 ********
 
